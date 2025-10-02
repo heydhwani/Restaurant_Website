@@ -22,21 +22,43 @@ body,html{
   font-size: 20px;
 }
 
-#thetable{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding:5px;
-  font-size: 35px;
+.logo-text{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 32px;
 }
+
+
 
 .image_part{
   background-image: url("https://media.assettype.com/quintype-website%2F2022-11%2F63a278b6-5383-4bc6-87ac-bb8a5c881fc9%2Ftraditional_indian_soup_lentils_indian_dhal_spicy_curry_bowl_spices_herbs_rustic_black_wooden_table.jpg?rect=0%2C78%2C1500%2C844&w=1024&auto=format%2Ccompress&fit=max" );
   width: 100%;
   height: 600px;
+  position: relative;
+  
 }
 
-.box{
-  width:40px;
-  height: 25px;
-  background-color: black;
-  
+.info-box {
+    position: absolute; /* Positions the box over the image */
+    top: 80px;         /* Distance from top of image */
+    left: 80px;        /* Distance from left of image */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px 40px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.order-btn {
+    margin-top: 15px;
+    background: #13de8a;
+    color: white;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
 }
