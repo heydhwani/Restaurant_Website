@@ -7,7 +7,7 @@ body,html{
 .top{
   width: 100%;
   height:90px;
-  background-color:grey;
+  background-color:peachpuff;
   padding:10px;
   display: flex;
   align-items: center;
@@ -28,7 +28,15 @@ body,html{
   font-size: 35px;
 }
 
-.img{
-  height:600px;
-  width:100%;
+.image_part{
+  background-image: url("https://media.assettype.com/quintype-website%2F2022-11%2F63a278b6-5383-4bc6-87ac-bb8a5c881fc9%2Ftraditional_indian_soup_lentils_indian_dhal_spicy_curry_bowl_spices_herbs_rustic_black_wooden_table.jpg?rect=0%2C78%2C1500%2C844&w=1024&auto=format%2Ccompress&fit=max" );
+  width: 100%;
+  height: 600px;
+}
+
+.box{
+  width:40px;
+  height: 25px;
+  background-color: black;
+  
 }
