@@ -121,6 +121,13 @@ li a:hover {
 }
 
 
+.footer_bar {
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+}
+
 @keyframes blinkAnimation{
   0%{ opacity: 1;}
   50%{ opacity:0%;}
