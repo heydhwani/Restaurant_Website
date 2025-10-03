@@ -85,3 +85,12 @@
 .unchecked {
   color: grey;
 }
+
+.review_card {
+  margin: 0 1vw;
+  padding: 2rem 1rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
