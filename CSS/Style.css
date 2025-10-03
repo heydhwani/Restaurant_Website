@@ -217,7 +217,15 @@ li a:hover {
     display: none;
   }
 
-  
+  .expanded_menu_container ul li a {
+    padding-right: 20px;
+  }
+
+  .menu_icon {
+    display: block;
+    padding-right: 20px;
+    color: black;
+  }
 
     
 
