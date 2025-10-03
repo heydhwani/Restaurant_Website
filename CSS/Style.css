@@ -93,6 +93,17 @@ li a:hover {
   
 }
 
+.footer_links {
+  list-style-type: none;
+  color: white;
+}
+
+.footer_links li span {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  
+}
+
 
 @keyframes blinkAnimation{
   0%{ opacity: 1;}
