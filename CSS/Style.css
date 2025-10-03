@@ -53,15 +53,15 @@ li a:hover {
   
 }
 
-.info-box {
-    position: absolute; /* Positions the box over the image */
-    top: 80px;         /* Distance from top of image */
-    left: 80px;        /* Distance from left of image */
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    padding: 30px 40px;
-    border-radius: 12px;
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+.nav_items ul {
+  display: flex;
+  list-style-type: none;
+  
+  
+}
+
+.nav_items ul li {
+  margin: 0 10px;
 }
 
 .order-btn {
