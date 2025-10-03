@@ -5,3 +5,8 @@
   background-image: url("../Images/Background_Home.jpg");
   background-size: cover;
 }
+
+.home_text {
+  color: white;
+  animation: blink 3s infinite;
+}
