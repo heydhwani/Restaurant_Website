@@ -204,6 +204,18 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 760px) {
+  .expanded_menu_container {
+    background-color: yellow;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .nav_items ul {
+    display: none;
+  }
 
   
 
