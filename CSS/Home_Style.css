@@ -102,3 +102,33 @@
 .review_card:hover {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@keyframes blink {
+  75% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 760px){
+
+  .review_group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+.review_card {
+    margin: 10px 1.5vw;
+
+  }
+
+  .checked {
+    color: orange;
+    padding: 5px;
+  }
+
+  .unchecked {
+    color: grey;
+    padding: 5px;
+  }
