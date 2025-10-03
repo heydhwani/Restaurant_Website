@@ -128,10 +128,23 @@ li a:hover {
   text-align: center;
 }
 
-@keyframes blinkAnimation{
-  0%{ opacity: 1;}
-  50%{ opacity:0%;}
-  100%{opacity:1;}
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  animation-duration: 2s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(70%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0%);
+  }
 }
 
 .container{
