@@ -38,3 +38,11 @@
   padding: 20px;
   
 }
+
+.about_group {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  max-width: 100%;
+  
+}
