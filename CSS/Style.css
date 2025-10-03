@@ -165,24 +165,18 @@ li a:hover {
   }
 }
 
+@media screen and (max-width: 1080px) and (min-width: 760px) {
+  .menu_icon {
+    display: block;
+    padding-right: 20px;
+    color: black;
+  }
 
-    /* Single review card */
-    .review-card {
-      background: white;
-      border-radius: 16px;
-      padding: 20px;
-      width: 500px;
-      height: 200px;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
 
-    /* Stars */
-    .stars {
-      color: orange;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
+
+
+
+
 
     /* Name */
     .name {
