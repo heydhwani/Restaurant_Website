@@ -104,6 +104,22 @@ li a:hover {
   
 }
 
+.footer_socials {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer_socials a {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer_socials a:hover {
+  color: blueviolet;
+}
+
 
 @keyframes blinkAnimation{
   0%{ opacity: 1;}
