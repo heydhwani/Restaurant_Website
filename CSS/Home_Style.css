@@ -153,3 +153,23 @@
     object-fit: cover;
   }
 
+  @media screen and (max-width: 760px) {
+
+
+  .review_group {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 2.5vw;
+  }
+
+  .review_card {
+    margin: 10px 0.5vw;
+  }
+
+  .about_text {
+    padding: 0;
+    justify-content: center;
+    width: 90%;
+  }
+
