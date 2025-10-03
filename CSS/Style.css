@@ -33,6 +33,20 @@ li a:hover {
 }
 
 
+.expanded_menu_container {
+  display: none;
+}
+
+.expanded_menu_container ul {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.expanded_menu_container ul li {
+  margin-bottom: 10px;
+  text-align: end;
+}
+
 
 
 .image_part{
