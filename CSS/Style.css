@@ -147,12 +147,10 @@ li a:hover {
   }
 }
 
-.container{
-  background-color: white;
-  width:70%;
-  height:300px;
-  font-size: 25px;
-  margin-top: 101px;
+@keyframes blink {
+  75% {
+    opacity: 0;
+  }
 }
 
 .reviews {
