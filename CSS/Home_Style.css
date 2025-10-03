@@ -173,3 +173,23 @@
     width: 90%;
   }
 
+
+  .about_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .home_background {
+    height: 50vh;
+  }
+
+  .about_img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
