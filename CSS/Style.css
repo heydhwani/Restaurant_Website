@@ -193,13 +193,20 @@ li a:hover {
     display: none;
   }
 
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .footer_content p {
+    text-align: center;
+  }
+}
 
 
   
 
     
 
-    .thanks{
-      margin-top: 50px;
-    }
+    
