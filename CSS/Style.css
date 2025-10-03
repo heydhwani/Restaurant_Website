@@ -77,6 +77,22 @@ li a:hover {
 }
 
 
+.footer_content {
+  
+  display: flex;
+  justify-content: space-evenly;
+  animation: bounce 2s infinite;
+
+  
+}
+
+.footer_content p {
+  color: white;
+  line-height: 1.75rem;
+  width: 60%;
+  
+}
+
 
 @keyframes blinkAnimation{
   0%{ opacity: 1;}
