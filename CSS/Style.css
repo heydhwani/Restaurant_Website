@@ -172,23 +172,29 @@ li a:hover {
     color: black;
   }
 
+.menu_icon {
+    display: block;
+    color: black;
+  }
+
+  .expanded_menu_container {
+    background-color: yellow;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .expanded_menu_container ul li a {
+    padding-right: 20px;
+  }
 
 
 
 
 
 
-    /* Name */
-    .name {
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    /* Review text */
-    .text {
-      font-style: italic;
-      color: #333;
-    }
+  
 
     .bottom_part{
       background-color: gray;
