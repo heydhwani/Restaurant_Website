@@ -145,5 +145,24 @@
     </div>
   </div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const textDivs = document.querySelectorAll('.slideanim');
+      textDivs.forEach(textDiv => {
+        window.addEventListener('scroll', function () {
+          const rect = textDiv.getBoundingClientRect();
+          console.log(rect, "rect")
+          const windowHeight = window.innerHeight;
+
+          // Check if the text div is in view
+          if (rect.top < windowHeight && rect.bottom > 0) {
+            textDiv.classList.remove("slideanim")
+            textDiv.classList.add("slide")
+          }
+        });
+      })
+    });
+  </script>
+
   </body>
 </html> 
