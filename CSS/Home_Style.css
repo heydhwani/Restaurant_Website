@@ -132,3 +132,9 @@
     color: grey;
     padding: 5px;
   }
+
+   .about_text {
+    padding: 0;
+    text-align: justify;
+    width: 90%;
+  }
