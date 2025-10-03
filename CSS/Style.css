@@ -24,12 +24,14 @@ li a:hover {
   padding: 8px;
 }
 
-.logo-text{
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 32px;
+.container {
+  background-color: yellow;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 
 
 
