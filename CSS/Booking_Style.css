@@ -63,4 +63,24 @@
   border-radius: 10px;
 }
 
+@media (max-width: 760px) {
+  .reservation_container form {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 250px;
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 1080px) and (min-width: 760px) {
+
+  .reservation_container form {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+}
+
 
