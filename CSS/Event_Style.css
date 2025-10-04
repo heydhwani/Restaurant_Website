@@ -43,3 +43,25 @@
         transform: translateY(0%);
     }
 }
+
+@media (max-width:1080px) {
+    .event_group {
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    .event_group_reverse {
+        flex-direction: column;
+    }
+
+    .event_text {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .event_img {
+        width: 100%;
+    }
+
+
+}
