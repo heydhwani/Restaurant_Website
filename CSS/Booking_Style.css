@@ -18,3 +18,26 @@
   text-align: center;
 
 }
+
+.reservation_container form {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: auto;
+  gap: 1rem;
+
+}
+
+.reservation_container input {
+
+  padding: 0.75rem 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: black;
+
+}
+
+.reservation_container input placeholder {
+  color: black;
+}
