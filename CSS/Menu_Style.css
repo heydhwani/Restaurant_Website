@@ -54,3 +54,9 @@
 .menu_item_desc {
     line-height: 1.6;
 }
+
+@keyframes blink {
+    75% {
+      opacity: 0;
+    }
+  }
