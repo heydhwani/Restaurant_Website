@@ -12,3 +12,12 @@
 
 
 }
+
+.event_img {
+    width: 40%;
+}
+
+.event_text {
+    padding: 30px 0 0 20px;
+    width: 60%;
+}
