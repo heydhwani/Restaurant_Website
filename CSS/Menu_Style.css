@@ -34,3 +34,11 @@
 .menu_item:hover {
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.menu_item_img {
+    width: 80px;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
