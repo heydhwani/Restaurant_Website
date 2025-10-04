@@ -70,3 +70,27 @@
       margin-left: 0;
     }
   } 
+
+  @media (max-width: 1080px) {
+
+    .menu_group {
+        grid-template-columns: auto;
+    }
+
+    .menu_item_img {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+
+@media (max-width: 1250px) and (min-width: 1080px) {
+    .menu_group {
+        grid-template-columns: auto auto;
+    }
+
+    .menu_item_img {
+        width: 125px;
+        height: 100%;
+    }
+}
