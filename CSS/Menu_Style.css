@@ -42,3 +42,15 @@
     object-fit: cover;
     margin-right: 1.5em;
 }
+
+.menu_item_heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    animation: blink 5s infinite;
+
+}
+
+.menu_item_desc {
+    line-height: 1.6;
+}
