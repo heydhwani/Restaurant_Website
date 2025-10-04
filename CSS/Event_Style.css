@@ -4,3 +4,11 @@
     align-items: center;
 
 }
+
+.event_group_reverse {
+    margin-bottom: 20 px;
+    display: flex;
+    align-items: center;
+
+
+}
