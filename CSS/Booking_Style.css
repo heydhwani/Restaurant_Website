@@ -41,3 +41,26 @@
 .reservation_container input placeholder {
   color: black;
 }
+
+.btn {
+  padding: 1rem 1.5rem;
+  border: 2px solid red;
+  border-color: red;
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  padding: 1rem 1.5rem;
+  border: 2px solid red;
+  font-size: 1rem;
+  color: red;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+
