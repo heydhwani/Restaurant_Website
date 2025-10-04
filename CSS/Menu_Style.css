@@ -60,3 +60,13 @@
       opacity: 0;
     }
   }
+
+
+  @keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  } 
